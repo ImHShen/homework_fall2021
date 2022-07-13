@@ -19,8 +19,9 @@ def show_video():
              </video>'''.format(encoded.decode('ascii'))))
   else: 
     print("Could not find video")
-    
 
+
+# noinspection PyPackageRequirements
 def wrap_env(env):
   env = Monitor(env, '/content/video', force=True)
   return env

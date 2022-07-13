@@ -1,5 +1,8 @@
 import os
+import sys
 import time
+
+sys.path.insert(0, "./cs285")
 
 from cs285.infrastructure.rl_trainer import RL_Trainer
 from cs285.agents.bc_agent import BCAgent
